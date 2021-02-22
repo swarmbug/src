@@ -13,7 +13,7 @@ Leader (red drone) does not consider other drones.
 As a result, it crashes with follower (blue drone) after it avoids obstacle (red polygon).
 This case that follower drone is placed in front of leader drone is rare in normal running but we observe while fuzzing.
 
-More details in **[Finding_algorithms_defect](https://github.com/swarmbug/swarmbug/tree/main/Finding_algorithms_defect)**.
+More details in **[Finding_algorithms_defect](https://github.com/swarmbug/src/tree/main/Finding_algorithms_defect)**.
 
 ## Supplementary materials for Exposing buggy logic via Dcc
 
@@ -27,7 +27,7 @@ only `obst_pot_c` (the right most figure) shows meaningful change of dcc value w
 
 After modifying the code related to `obst_pot_c`, we observe drones (blue sphere) avoid the obstacle (red sphere).
 
-More details in **[Exposing_buggy_logic_via_Dcc](https://github.com/swarmbug/swarmbug/tree/main/Exposing_buggy_logic_via_Dcc)**.
+More details in **[Exposing_buggy_logic_via_Dcc](https://github.com/swarmbug/src/tree/main/Exposing_buggy_logic_via_Dcc)**.
 
 ## Supplementary materials for Physical experiments.
 
@@ -37,4 +37,4 @@ We checked proposed patch by Swarmbug performed well in real would experiment wh
 
 Left figure shows drones are crash with each other (naive patch) and the right figure shows drones are flying without crash.
 
-More details in **[Physical_experiments](https://github.com/swarmbug/swarmbug/tree/main/Physical_experiments)**.
+More details in **[Physical_experiments](https://github.com/swarmbug/src/tree/main/Physical_experiments)**.
