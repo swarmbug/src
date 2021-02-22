@@ -7,7 +7,7 @@ Contents that we was not able to cover in the paper due to the paper limit are p
 
 We observed algorithm's defect by fuzzing.
 
-![](https://github.com/swarmbug/swarmbug/blob/main/main_1_fig1_crash.png)
+![](https://github.com/swarmbug/src/blob/main/main_1_fig1_crash.png)
 
 Leader (red drone) does not consider other drones.
 As a result, it crashes with follower (blue drone) after it avoids obstacle (red polygon).
@@ -19,11 +19,11 @@ More details in **[Finding_algorithms_defect](https://github.com/swarmbug/src/tr
 
 Using Dcc value, we can trace back to code and improve swarm's behavior by modifying code recognized.
 
-![](https://github.com/swarmbug/swarmbug/blob/main/main_2_fig1_dcc.png)
+![](https://github.com/swarmbug/src/blob/main/main_2_fig1_dcc.png)
 
 only `obst_pot_c` (the right most figure) shows meaningful change of dcc value while the others don't.
 
-![](https://github.com/swarmbug/swarmbug/blob/main/Exposing_buggy_logic_via_Dcc/videos/no_fix.gif)
+![](https://github.com/swarmbug/src/blob/main/Exposing_buggy_logic_via_Dcc/videos/no_fix.gif)
 
 After modifying the code related to `obst_pot_c`, we observe drones (blue sphere) avoid the obstacle (red sphere).
 
@@ -33,7 +33,7 @@ More details in **[Exposing_buggy_logic_via_Dcc](https://github.com/swarmbug/src
 
 We checked proposed patch by Swarmbug performed well in real would experiment while naive patch did not.
 
-![](https://github.com/swarmbug/swarmbug/blob/main/main_3_fig1_phy.png)
+![](https://github.com/swarmbug/src/blob/main/main_3_fig1_phy.png)
 
 Left figure shows drones are crash with each other (naive patch) and the right figure shows drones are flying without crash.
 
