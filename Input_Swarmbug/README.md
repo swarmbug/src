@@ -84,4 +84,4 @@ For example, `drone_vel` means the velocity of the drone. The physical drone can
 }
 ```
 
-Above `json` file can be found in **[Sample Input](https://github.com/swarmbug/src/tree/main/Input_example/Sample_data)**.
+Above `json` file can be found in **[Sample Input](https://github.com/swarmbug/src/tree/main/Input_Swarmbug/Sample_data)**.
