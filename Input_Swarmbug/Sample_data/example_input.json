@@ -1,33 +1,27 @@
 
   {
+
     "Environment configuration"   : {
 
-        "Vari_001"         : {
-            "Name"         : "robot1.sp",
+        "robot1.sp"        : {
             "Varnothing"   : [3.0, 3.0]
         },
-        "Vari_002"         : {
-            "Name"         : "followers[0].sp",
+        "followers[0].sp"  : {
             "Varnothing"   : [3.0, 3.0]
         },
-        "Vari_003"         : {
-            "Name"         : "followers[0].sp",
+        "followers[1].sp"  : {
             "Varnothing"   : [3.0, 3.0]
         },
-        "Vari_004"         : {
-            "Name"         : "followers[0].sp",
+        "followers[2].sp"  : {
             "Varnothing"   : [3.0, 3.0]
         },
-        "Vari_005"         : {
-            "Name"         : "obstacles[8].sp",
+        "obstacles[8].sp"  : {
             "Varnothing"   : [3.0, 3.0]
         },
-        "Vari_006"         : {
-            "Name"         : "obstacles[9].sp",
+        "obstacles[9].sp"  : {
             "Varnothing"   : [3.0, 3.0]
         },
-        "Vari_007"         : {
-            "Name"         : "obstacles[11].sp",
+        "obstacles[10].sp" : {
             "Varnothing"   : [3.0, 3.0]
         }
     },
@@ -35,42 +29,35 @@
 
     "Swarm configuration"   : {
 
-        "Vari_001"   : {
-            "Name"          : "w",
+        "w"                 : {
             "Default"       : 20.0,
             "Min"           : 0.0,
             "Max"           : 40.0
         },
-        "Vari_002"   : {
-            "Name"          : "xi",
+        "xi"                : {
             "Default"       : 400.0,
             "Min"           : 0.0,
             "Max"           : 800.0
         },
-        "Vari_003"   : {
-            "Name"          : "nu",
+        "nu"                : {
             "Default"       : 0.0014,
             "Min"           : 0.0,
             "Max"           : 0.0028
         },
-        "Vari_004"   : {
-            "Name"          : "int_dist",
+        "int_dist"          : {
             "Default"       : 0.7,
             "Min"           : 0.0,
             "Max"           : 1.4
         },
-        "Vari_005"   : {
-            "Name"          : "infl_radius",
+        "infl_radius"       : {
             "Default"       : 0.3,
             "Min"           : 0.0,
             "Max"           : 0.6
         },
-        "Vari_006"   : {
-            "Name"          : "drone_vel",
+        "drone_vel"         : {
             "Default"       : 4.0,
             "Min"           : 0.0,
             "Max"           : 8.0
         }
-
     }
   }

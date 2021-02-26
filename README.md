@@ -38,3 +38,28 @@ We checked proposed patch by Swarmbug performed well in real would experiment wh
 Left figure shows drones are crash with each other (naive patch) and the right figure shows drones are flying without crash.
 
 More details in **[Physical_experiments](https://github.com/swarmbug/src/tree/main/Physical_experiments)**.
+
+## Input data of Swarmbug.
+
+We explains configuration variables with the real input data of Swarmbug when we apply Swarmbug to Adaptive Swarm. Below data is a part of input file.
+
+```json
+{
+    "Environment configuration"   : {
+
+        "robot1.sp"               : {
+            "Varnothing"          : [3.0, 3.0]
+        },
+        ...
+    },
+
+    "Swarm configuration"         : {
+        "w"                       : {
+            "Default"             : 20.0,
+            "Min"                 : 0.0,
+            "Max"                 : 40.0
+    },
+...
+```
+
+More details in **[Input_Swarmbug](https://github.com/swarmbug/src/tree/main/Input_Swarmbug)**.
