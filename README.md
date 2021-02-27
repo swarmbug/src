@@ -63,3 +63,13 @@ We explains configuration variables with the real input data of Swarmbug when we
 ```
 
 More details in **[Input_Swarmbug](https://github.com/swarmbug/src/tree/main/Input_Swarmbug)**.
+
+## Profiling for the configuration definitions
+
+We present how to profile configuration definitions, especially an approach to identify `varnothing` for environment configuration (4.1.1 Configuration variables) here.
+
+![](https://github.com/swarmbug/src/blob/main/main_4_fig1_pro.png)
+
+By mutating variables we eliminate impacts of configuration variables: from the environment (left figure) we extract the delta values (right figure), the coordinates (e.g., `x` and `y` values) that reach the plateua becomes `varnothing`.
+
+More details in **[Profiling_conf_def](https://github.com/swarmbug/src/tree/main/Profiling_conf_def)**.
