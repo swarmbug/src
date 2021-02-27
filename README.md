@@ -39,7 +39,7 @@ Left figure shows drones are crash with each other (naive patch) and the right f
 
 More details in **[Physical_experiments](https://github.com/swarmbug/src/tree/main/Physical_experiments)**.
 
-## Input data of Swarmbug.
+## Supplementary materials for Input data of Swarmbug.
 
 We explains configuration variables with the real input data of Swarmbug when we apply Swarmbug to Adaptive Swarm. Below data is a part of input file.
 
@@ -64,7 +64,7 @@ We explains configuration variables with the real input data of Swarmbug when we
 
 More details in **[Input_Swarmbug](https://github.com/swarmbug/src/tree/main/Input_Swarmbug)**.
 
-## Profiling for the configuration definitions
+## Supplementary materials for Profiling for the configuration definitions
 
 We present how to profile configuration definitions, especially an approach to identify `varnothing` for environment configuration (4.1.1 Configuration variables) here.
 
