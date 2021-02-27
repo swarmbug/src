@@ -58,8 +58,10 @@ We explains configuration variables with the real input data of Swarmbug when we
             "Default"             : 20.0,
             "Min"                 : 0.0,
             "Max"                 : 40.0
-    },
-...
+        },
+        ...
+    }
+}
 ```
 
 More details in **[Input_Swarmbug](https://github.com/swarmbug/src/tree/main/Input_Swarmbug)**.
