@@ -7,7 +7,7 @@ We observe that configuration variables have stable delta values on the lower an
 
 Intuitively, this is because the lower and higher sides values of the configuration variables essentially move the object associated with the variable far away from the swarm.
 
-![](https://github.com/swarmbug/src/blob/main/Profiling_conf_def/fig/profiling.png)
+![](https://github.com/swarmbug/src/blob/main/Profiling_conf_def/fig/profiling.PNG)
 
 - Finding a concrete value of `varnothing`.
   Moving an object to the yellow area near the drone cause a crash (i.e., an invalid test). We remove them from our analysis.
