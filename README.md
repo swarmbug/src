@@ -75,3 +75,13 @@ We present how to profile configuration definitions, especially an approach to i
 By mutating variables we eliminate impacts of configuration variables: from the environment (left figure) we extract the delta values (right figure), the coordinates (e.g., `x` and `y` values) that reach the plateua becomes `varnothing`.
 
 More details in **[Profiling_conf_def](https://github.com/swarmbug/src/tree/main/Profiling_conf_def)**.
+
+## Supplementary materials for Identifying the fixed point in computing spacial variation.
+
+In the paper (4.2.1 Profiling sptial variations), we reach the fixed point with 10 test sets (100 tests). We explain how to get this fixed point here.
+
+![](https://github.com/swarmbug/src/blob/main/main_4_fig1_pro.png)
+
+When we observe _SV<sub>i-1</sub>_ and _SV<sub>i</sub>_ do not differ more than 5%, we stop repeating the process.
+
+More details in **[Fixed_pt_SVMap](https://github.com/swarmbug/src/tree/main/Fixed_pt_SVMap)**.
