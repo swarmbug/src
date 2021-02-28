@@ -30,7 +30,7 @@ We explains configuration variables with the real input data of Swarmbug when we
 
 More details in **[Input_Swarmbug](https://github.com/swarmbug/src/tree/main/Input_Swarmbug)**.
 
-## Supplementary materials for Profiling for the configuration definitions
+## Supplementary materials for Profiling the configuration definitions
 
 We present how to profile configuration definitions, especially an approach to identify `varnothing` for environment configuration (4.1.1 Configuration variables) here.
 
@@ -49,6 +49,16 @@ In the paper (4.2.1 Profiling sptial variations), we reach the fixed point with 
 When we observe _SV<sub>i-1</sub>_ and _SV<sub>i</sub>_ do not differ more than 5%, we stop repeating the process.
 
 More details in **[Fixed_pt_SVMap](https://github.com/swarmbug/src/tree/main/Fixed_pt_SVMap)**.
+
+## Supplementary materials for Profiling the threshold for the time window
+
+We explain how to profile the threshold for the time window (4.1.3 Temporal analysis).
+
+![](https://github.com/swarmbug/src/blob/main/main_6_fig1_zoom.png)
+
+We observe _T<sub>win<sub>3</sub></sub>_ and _T<sub>win<sub>4</sub></sub>_ are time delay between stable flight status in above figure.
+
+More details in **[Profiling_thr_time_win](https://github.com/swarmbug/src/tree/main/Profiling_thr_time_win)**.
 
 ## Supplementary materials for Physical experiments.
 
