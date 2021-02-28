@@ -80,7 +80,7 @@ More details in **[Profiling_conf_def](https://github.com/swarmbug/src/tree/main
 
 In the paper (4.2.1 Profiling sptial variations), we reach the fixed point with 10 test sets (100 tests). We explain how to get this fixed point here.
 
-![](https://github.com/swarmbug/src/blob/main/main_4_fig1_pro.png)
+![](https://github.com/swarmbug/src/blob/main/main_5_fig1_converged.png)
 
 When we observe _SV<sub>i-1</sub>_ and _SV<sub>i</sub>_ do not differ more than 5%, we stop repeating the process.
 
