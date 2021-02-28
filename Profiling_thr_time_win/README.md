@@ -23,7 +23,9 @@ When we aggregate all drones (_m<sub>r</sub>_) and consider more missions (_M<su
 
 ![](https://github.com/swarmbug/src/blob/main/Profiling_thr_time_win/fig/traj.PNG)
 
-With domain knowledge, we observe ① follower 1 flies (before _T<sub>win<sub>3</sub></sub>_) and ② approaches to wall (obstacle 3). Then ③ it flies next to wall (between _T<sub>win<sub>3</sub></sub>_ and _T<sub>win<sub>4</sub></sub>_) and ④ tries to turn around the corner of wall (_T<sub>win<sub>4</sub></sub>_). At last, ⑤ it flies away (after _T<sub>win<sub>4</sub></sub>_).
+- This is swarm's flight snapshot that corresponds to the 2nd figure.
+
+With domain knowledge, we observe ① follower 1 flies (blue drone in above figure, before _T<sub>win<sub>3</sub></sub>_) and ② approaches to wall (obstacle 3). Then ③ it flies next to wall (between _T<sub>win<sub>3</sub></sub>_ and _T<sub>win<sub>4</sub></sub>_) and ④ tries to turn around the corner of wall (_T<sub>win<sub>4</sub></sub>_). At last, ⑤ it flies away (after _T<sub>win<sub>4</sub></sub>_).
 So, we observe _T<sub>win<sub>3</sub></sub>_ and _T<sub>win<sub>4</sub></sub>_ are time delay between stable flight status.
 
 In this way, we can measure the _T<sub>win</sub>_. Note that 10% threshold can be tuned for each algorithm (10% works fine for four algorithms we used in this paper.)
