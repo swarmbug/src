@@ -43,6 +43,8 @@ Below data is the real input when Swarmbug is applied to Adaptive Swarm. For exa
 
 Below data is the real input as swarm configuration variables. In this type of variable, unlikely environment configuration variables, "Default", "Min", and "Max" are required. Note that "Varnothing" is not needed for this type of variable (See 4.1. Behavior causal analysis).
 
+- In a case that we have no domain knowledge, we profile swarm configuration variables' range (i.e., "Min" and "Max") by running multiple test runs. This profiling process starts from the "Default" value, and it decreases/increases the value until it occurs errors (e.g., the cases that negative velocity of objects or negative dimensions are not permitted in the physical settings.) or does not represent change anymore (e.g., the cases that influence radius is already big enough to cover everything nearby.)
+
 "Default" means the original value of the swarm configuration variable, which becomes a starting point of mutation. "Min" and "Max" are the minimum and maximum values, respectively. Generally, as swarm configuration variables have the real physical meaning, setting for the feasible range is important.
 
 For example, `drone_vel` means the velocity of the drone. The physical drone cannot move with negative velocity, and it cannot fly with a bigger velocity than its maximum velocity (given by physical restriction).

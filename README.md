@@ -54,7 +54,11 @@ More details in **[Fixed_pt_SVMap](https://github.com/swarmbug/src/tree/main/Fix
 
 We explain how to profile the threshold for the time window (4.1.3 Temporal analysis).
 
-![](https://github.com/swarmbug/src/blob/main/main_6_fig1_zoom.png)
+![](https://github.com/swarmbug/src/blob/main/main_6_fig1_whole.png)
+
+![](https://github.com/swarmbug/src/blob/main/main_6_fig2_zoom.png)
+
+These figures are the whole dcc value of follower 1 (_m<sub>r</sub>_) and the enlarged part for _T<sub>win<sub>3</sub></sub>_ and _T<sub>win<sub>4</sub></sub>_.
 
 We observe _T<sub>win<sub>3</sub></sub>_ and _T<sub>win<sub>4</sub></sub>_ are time delay between stable flight status in above figure.
 

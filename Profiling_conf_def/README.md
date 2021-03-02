@@ -4,7 +4,11 @@ This page explains how to profile **[configuration definitions](https://github.c
 
 We present how we find a value for an environment configuration variable that eliminates the causal impact of the variable. We observe that environment configuration variables have stable delta values on the lower and higher sides of mutated values.
 
-Intuitively, this is because the lower and higher sides values of the configuration variables essentially move the object associated with the variable far away from the swarm.
+- We profile these values' range (_R<sub>avg</sub>_) by running multiple test runs. Also, we profile the average change (_S<sub>avg</sub>_) of these variables on every tick, which essentially represents the average speed of objects, including robots and obstacles.
+- Then, we split _R<sub>avg</sub>_ by _S<sub>avg</sub>_, resulting in multiple groups (e.g., 100 groups if _R<sub>avg</sub>_ is 5, and _S<sub>avg</sub>_ is 0.05). We run experiments with a coordinate value from each group, observing the differences (i.e., the delta in figure 5, 4.1.2 Degree of causal contribution) of the objects' coordinates from the original run.
+- If the profiling to obtain _R<sub>avg</sub>_ and _S<sub>avg</sub>_ is insufficient, failing to find a fixed point, we multiply _R<sub>avg</sub>_ by two and repeat the experiments until it succeeds.
+
+Intuitively, this is because the lower and higher sides values (i.e., in _R<sub>avg</sub>_ )of the configuration variables essentially move the object associated with the variable far away from the swarm.
 
 ![](https://github.com/swarmbug/src/blob/main/Profiling_conf_def/fig/profiling.PNG)
 
