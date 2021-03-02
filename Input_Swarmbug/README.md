@@ -5,7 +5,7 @@ Swarmbug expects a user to provide the configuration definitions: A list of conf
 
 ## Environment configuration variables
 
-In the case of environment configuration variables, the value to eliminate the corresponding impact of the variable (i.e., `varnothing`) is required. How to get this `varnothing` is explained here: **[Profiling_conf_def](https://github.com/swarmbug/src/tree/main/Profiling_conf_def)**.
+In the case of environment configuration variables, the value to eliminate the corresponding impact of the variable (i.e., `varnothing`) is required. How to get this `varnothing` is explained here: **[Profiling for the configuration definitions](https://github.com/swarmbug/src/tree/main/Profiling_conf_def)**.
 
 Below data is the real input when Swarmbug is applied to Adaptive Swarm. For example, `obstacles[8].sp` is the coordinates of the first moving obstacle. As the coordinate that every object in the world can have is from -2.5 to 2.5 for x-axis and from -2.5 to 2.5 for y-axis, when `obstacles[8]` has a bigger value than [3.0, 3.0], it cannot affect any object in the world.
 

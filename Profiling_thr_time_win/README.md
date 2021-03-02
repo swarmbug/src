@@ -11,7 +11,7 @@ In _M<sub>k</sub>_ (k <sup>th</sup> mission), for _m<sub>r</sub>_, we collect _T
 
 ![](https://github.com/swarmbug/src/blob/main/Profiling_thr_time_win/fig/dcc_whole.PNG)
 
-- This is the whole dcc value of follower 1 (_m<sub>r</sub>_), which is one of the real data.
+- This is the whole dcc value of follower 1 (_m<sub>2</sub>_), which is one of the real data.
   - Legend for this figure is the same as figure 6 in the paper.
 
 In this data, we can get 6.67 tick as a time window.
