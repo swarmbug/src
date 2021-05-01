@@ -53,7 +53,7 @@ Below code is from \*obstacle.m". We can find `c_obst_pot_c` is used here.
 Here, `obj` indicates obstacle (class) and `r` indicates the distance between an obstacle and the drone. When r >= R, `val` takes 0 so that an agent (drone) cannot catch any value outside of obstacle's radius.
 Currently, all patch strategies does not work with this code.
 
-```matlab=
+```matlab
 methods (Access = private)
 
     % Get potential caused by obstacle
@@ -94,7 +94,7 @@ In this version of video, drones (green sphere) do not avoid the first obstacle 
 
 ### Fixed code
 
-```matlab=
+```matlab
 methods (Access = private)
 
     % Get potential caused by obstacle
