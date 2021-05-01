@@ -12,6 +12,7 @@ This page explains how we implement the core component (i.e., computing the delt
 - **Command line:** The following command line will execute our Swarmbug prototype.
 
 ```bash
+$ cd code
 $ python src/layered_planner_long_mission/planner.py test -k long
 ```
 
