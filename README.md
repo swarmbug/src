@@ -99,3 +99,15 @@ only `obst_pot_c` (the right most figure) shows meaningful change of dcc value w
 After modifying the code related to `obst_pot_c`, we observe drones (blue sphere) avoid the obstacle (red sphere).
 
 More details in **[Exposing_buggy_logic_via_Dcc](https://github.com/swarmbug/src/tree/main/Exposing_buggy_logic_via_Dcc)**.
+
+## Additional Materials
+
+This page contains **Criteria for the selection of algorithms**, **Source code**, and **Profiling tools and supporting approaches** of Swarmbug.
+
+Specifically, there are sub-folders containing:
+
+1. **[Criteria for selecting algorithms](https://github.com/swarmbug/code/tree/main/Additional_Materials/Criteria_for_selecting_algorithms)**
+
+2. **[Source code](https://github.com/swarmbug/code/tree/main/Additional_Materials/Source_code)**
+
+3. **[Profiling tools and supporting approaches](https://github.com/swarmbug/code/tree/main/Additional_Materials/Criteria_for_selecting_algorithms)**
