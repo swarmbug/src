@@ -15,7 +15,7 @@ This page explains how we implement the core component (i.e., computing the delt
   1.  Run the matlab and make sure essential packages (e.g., tbxmanager, casadi, etc.) are included for execution.
   2.  Run `bbb_Dcc_reach_avoid_Ndrones_varvel.m`
 
-- **Output:** Dcc values will be stored in `delta.csv`under the root folder (where Matlab runs). Also, other outputs for analysis are the same.
+- **Output:** Dcc values will be stored in `dcc.csv`under the root folder (where Matlab runs). Also, other outputs for analysis are the same.
 
 ## Summary of changes
 
