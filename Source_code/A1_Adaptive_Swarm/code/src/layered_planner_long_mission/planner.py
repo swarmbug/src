@@ -777,8 +777,10 @@ simul_tick [%d] with [%f] in zone_[%d] speedX [%f] obsSize [%f]" % \
                 params.victim_index_1 = target_i_1
 
                 target_i_2 = 1
-                goal_for_atk_2 = copy.deepcopy(robots[target_i_2].sp)
-                goal_for_atk_2[0] -= 0.3  # this is for strategy a
+                # = copy.deepcopy(robots[target_i_2].sp)
+                goal_for_atk_2 = copy.deepcopy(robots[target_i_1].sp)
+                goal_for_atk_2[0] = 0.0
+                goal_for_atk_2[1] = 2.0  # [0] -= 0.3  # this is for strategy a
                 params.victim_index_1 = target_i_2
 
             elif strategy == 'b':

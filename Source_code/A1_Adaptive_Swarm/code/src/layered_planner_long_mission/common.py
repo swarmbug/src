@@ -37,7 +37,7 @@ class Params:
         self.animate_rrt = 0
 
         # show robots movement
-        self.visualize = 0
+        self.visualize = 1
 
         # process and visualize the simulated experiment
         # data after the simulation
