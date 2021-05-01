@@ -1,4 +1,4 @@
-function [ ] = fuzz_fct_Test_Swarm_3d_IndepWaypoints(input_seed_matrix) %Nd = 4 as example
+function [ ] = fuzz_fct_Test_Swarm_3d_IndepWaypoints(idx, input_matrix) %Nd = 4 as example
 
 % input_seed_matrix
 % x1 x2 x3
@@ -8,7 +8,8 @@ function [ ] = fuzz_fct_Test_Swarm_3d_IndepWaypoints(input_seed_matrix) %Nd = 4 
 % x1 
 % y1 
 % z1 
-
+disp(input_matrix);
+input_seed_matrix = input_matrix;
 
 %% Test Swarm Trajectory in 3-D
 % Author: Christian Howard
@@ -17,7 +18,7 @@ function [ ] = fuzz_fct_Test_Swarm_3d_IndepWaypoints(input_seed_matrix) %Nd = 4 
 % algorithms in 3-D. This script also allows for the user to specify
 % various waypoints so that they can maneuver around a space
 
-clear all;
+%clear all;
 false = 0;
 true = 1;
 rng(1)
@@ -140,6 +141,7 @@ obst = [Obstacle(pos1,radius), Obstacle(pos2,radius), ...
 
 
 %% Create drones and obstacle arrays
+%disp(input_seed_matrix(:,1));
 i = 1;
 drones = [];
 while( i <= Nd )
@@ -150,6 +152,7 @@ while( i <= Nd )
         % Add a follower drone to drone array
         DEL = [xc - 10, xc + 10]; % make swarm initialize around lead drone randomly
         %pos = rand(3,1).*( DEL(:,2)-DEL(:,1) ) + DEL(:,1);
+        %disp(input_seed_matrix(:,i));
         pos = input_seed_matrix(:,i);
         drones = [drones, Drone(radius, pos, 1)];
     end
@@ -321,8 +324,9 @@ while( done == 0 )
     dcc_d4 = delta_d4 / sum_delta;
     dcc_o = delta_o / sum_delta;
     dcc_w = delta_w / sum_delta;
-    
-   dlmwrite('dcc.csv',[dcc_d2, dcc_d3, dcc_d4, dcc_o, dcc_w] ,'delimiter',',','-append');
+    mkdir('dcc_storage/' + string(idx))
+    path = "dcc_storage/" + idx + "/dcc.csv";
+   dlmwrite(path,[dcc_d2, dcc_d3, dcc_d4, dcc_o, dcc_w] ,'delimiter',',','-append');
 
 %     dist_1 = norm(drones(1).pos - pos1);
 %     check_crash_1 = (norm(drones(1).pos - pos1) < 4.00);
