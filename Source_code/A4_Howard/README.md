@@ -22,10 +22,10 @@ This page explains how we implement the core component (i.e., computing the delt
 
 In `ccc_fct_dcc_Test_Swarm_3d_indepWaypoints.m`, `GradientDescentUpdate()` is called every tick in the main loop.
 
-- `drones(i).pos` is the result of the original execution (Figure 5-(a)).
-- `fake_coor_o` is the result of the counterfactual execution (Figure 5-(b)) without obstacle.
+- `drones(i).pos` is the result of the original execution.
+- `fake_coor_o` is the result of the counterfactual execution without obstacle.
 
-`Delta_o` is delta (Figure 5-(c)) for computing `dcc_o` (Dcc value).
+`Delta_o` is delta for computing `dcc_o` (Dcc value).
 
 ```matlab
 ...

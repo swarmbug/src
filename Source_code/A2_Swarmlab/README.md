@@ -26,7 +26,7 @@ This page explains how we implement the core component (i.e., computing the delt
 
 - Creating alternative executions to compute Dcc
 
-In `example_olfati_saber.m`, `swarm.fake_get_pos_ned()` is called every tick in the main loop. `N` is the result from original execution (Figure 5-(a)), and `fake_N` is the result from the counterfactual execution (Figure 5-(b)) without the objects. `temp_norm` is the delta (Figure 5-(c)) calculated by using the two values (`N` and `fake_N`).
+In `example_olfati_saber.m`, `swarm.fake_get_pos_ned()` is called every tick in the main loop. `N` is the result from original execution, and `fake_N` is the result from the counterfactual execution without the objects. `temp_norm` is the delta calculated by using the two values (`N` and `fake_N`).
 
 ```matlab
 ...

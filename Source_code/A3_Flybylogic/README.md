@@ -21,10 +21,10 @@ This page explains how we implement the core component (i.e., computing the delt
 
 - Creating alternative executions to compute Dcc
 
-In `bbb_Dcc_reach_avoid_Ndrones_varvel.m`, `bbb_fct_Dcc_reach_avoid_Ndrones_varvel()` is called every tick in the main loop. This function computes the counterfactual execution (Figure 5-(b)) by removing the objects:
+In `bbb_Dcc_reach_avoid_Ndrones_varvel.m`, `bbb_fct_Dcc_reach_avoid_Ndrones_varvel()` is called every tick in the main loop. This function computes the counterfactual execution by removing the objects:
 
-- `[xx_1, yy_1, zz_1]` is the result of the original execution (Figure 5-(a)).
-- `[xx_2, yy_2, zz_2]` and `[xx_o, yy_o, zz_o]` are the result of the counterfactual execution (Figure 5-(b) without 2nd agent and obstacle, respectively.
+- `[xx_1, yy_1, zz_1]` is the result of the original execution.
+- `[xx_2, yy_2, zz_2]` and `[xx_o, yy_o, zz_o]` are the result of the counterfactual execution without 2nd agent and obstacle, respectively.
 
 Then, they are computed together to get delta (`delta_about_a2` and `delta_about_o`).
 
