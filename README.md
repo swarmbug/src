@@ -3,7 +3,25 @@
 This is the Swarmbug project page.
 Contents that we was not able to cover in the paper due to the paper limit are placed here.
 
-## Supplementary materials for Input data of Swarmbug.
+## Source code
+
+This page contains Swarmbug's source code and additional profiling tools mentioned in the paper (with example inputs/data).
+
+More details in **[Source code](https://github.com/swarmbug/src/tree/main/Source_code)**
+
+## Profiling tools and supporting approaches
+
+This folder contains tools we created to assist data analysis and processing tasks.
+
+More details in **[Profiling tools and supporting approaches](https://github.com/swarmbug/src/tree/main/Source_code/Tools)**
+
+## Criteria for selecting algorithms
+
+This page contains our swarm algorithm selection criteria in detail, which is mentioned in Section 5. Evaluation, Swarm Algorithms.
+
+More details in **[Criteria for selecting algorithms](https://github.com/swarmbug/src/tree/main/Criteria_for_selecting_algorithms)**
+
+## Input data of Swarmbug.
 
 We explains configuration variables with the real input data of Swarmbug when we apply Swarmbug to Adaptive Swarm. Below data is a part of input file.
 
@@ -30,7 +48,7 @@ We explains configuration variables with the real input data of Swarmbug when we
 
 More details in **[Input_Swarmbug](https://github.com/swarmbug/src/tree/main/Input_Swarmbug)**.
 
-## Supplementary materials for Profiling the configuration definitions
+## Profiling the configuration definitions
 
 We present how to profile configuration definitions, especially an approach to identify `varnothing` for environment configuration (4.1.1 Configuration variables) here.
 
@@ -40,7 +58,7 @@ By mutating variables we eliminate impacts of configuration variables: from the 
 
 More details in **[Profiling_conf_def](https://github.com/swarmbug/src/tree/main/Profiling_conf_def)**.
 
-## Supplementary materials for Identifying the fixed point in computing spacial variation.
+## Identifying the fixed point in computing spacial variation.
 
 In the paper (4.2.1 Profiling sptial variations), we reach the fixed point with 10 test sets (100 tests). We explain how to get this fixed point here.
 
@@ -50,7 +68,7 @@ When we observe _SV<sub>i-1</sub>_ and _SV<sub>i</sub>_ do not differ more than 
 
 More details in **[Fixed_pt_SVMap](https://github.com/swarmbug/src/tree/main/Fixed_pt_SVMap)**.
 
-## Supplementary materials for Profiling the threshold for the time window
+## Profiling the threshold for the time window
 
 We explain how to profile the threshold for the time window (4.1.3 Temporal analysis).
 
@@ -64,7 +82,7 @@ We observe _T<sub>win<sub>3</sub></sub>_ and _T<sub>win<sub>4</sub></sub>_ are t
 
 More details in **[Profiling_thr_time_win](https://github.com/swarmbug/src/tree/main/Profiling_thr_time_win)**.
 
-## Supplementary materials for Physical experiments.
+## Physical experiments.
 
 We checked proposed patch by Swarmbug performed well in real would experiment while naive patch did not.
 
@@ -74,7 +92,7 @@ Left figure shows drones are crash with each other (naive patch) and the right f
 
 More details in **[Physical_experiments](https://github.com/swarmbug/src/tree/main/Physical_experiments)**.
 
-## Supplementary materials for Finding algorithm's defect
+## Finding algorithm's defect
 
 We observed algorithm's defect by fuzzing.
 
@@ -86,7 +104,7 @@ This case that follower drone is placed in front of leader drone is rare in norm
 
 More details in **[Finding_algorithms_defect](https://github.com/swarmbug/src/tree/main/Finding_algorithms_defect)**.
 
-## Supplementary materials for Exposing buggy logic via Dcc
+## Exposing buggy logic via Dcc
 
 Using Dcc value, we can trace back to code and improve swarm's behavior by modifying code recognized.
 
@@ -99,15 +117,3 @@ only `obst_pot_c` (the right most figure) shows meaningful change of dcc value w
 After modifying the code related to `obst_pot_c`, we observe drones (blue sphere) avoid the obstacle (red sphere).
 
 More details in **[Exposing_buggy_logic_via_Dcc](https://github.com/swarmbug/src/tree/main/Exposing_buggy_logic_via_Dcc)**.
-
-## Additional Materials
-
-This page contains **Criteria for the selection of algorithms**, **Source code**, and **Profiling tools and supporting approaches** of Swarmbug.
-
-Specifically, there are sub-folders containing:
-
-1. **[Criteria for selecting algorithms](https://github.com/swarmbug/src/tree/main/Criteria_for_selecting_algorithms)**
-
-2. **[Source code](https://github.com/swarmbug/src/tree/main/Source_code)**
-
-3. **[Profiling tools and supporting approaches](https://github.com/swarmbug/src/tree/main/Source_code/Tools)**
