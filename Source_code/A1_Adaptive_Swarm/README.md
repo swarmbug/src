@@ -16,7 +16,7 @@ $ cd code
 $ python src/layered_planner_long_mission/planner.py test -k long
 ```
 
-- **Output:** Dcc values will be stored in `ref_x.csv` under `seed_pool` folder and other outputs for analysis under `output` folder.
+- **Output:** Dcc values will be stored in `ref_x.csv` under `seed_pool` folder (and `contribution.log` in `output` folder) and other outputs for analysis under `output` folder.
 
 ## Summary of changes
 

@@ -49,3 +49,14 @@
 0 randomseed [1] modified_value [i] x[1.000000] from [1] simul_tick [46]  True f2 2ndO 46 null 0.289592064073 1
 0 randomseed [1] modified_value [i] x[1.000000] from [1] simul_tick [47]  True f2 2ndO 47 null 0.291056207683 1
 0 randomseed [1] modified_value [i] x[1.000000] from [1] simul_tick [48]  True f2 2ndO 48 null 0.299129337025 1
+0 randomseed [1] modified_value [i] x[1.000000] from [1] simul_tick [43]  True f2 2ndO 43 null 0.29855028352 1
+0 randomseed [1] modified_value [i] x[1.000000] from [1] simul_tick [45]  True f2 2ndO 45 null 0.29624452649 1
+0 randomseed [1] modified_value [i] x[1.000000] from [1] simul_tick [46]  True f2 2ndO 46 null 0.289592064073 1
+0 randomseed [1] modified_value [i] x[1.000000] from [1] simul_tick [47]  True f2 2ndO 47 null 0.291056207683 1
+0 randomseed [1] modified_value [i] x[1.000000] from [1] simul_tick [48]  True f2 2ndO 48 null 0.299129337025 1
+0 randomseed [2] modified_value [i] x[1.000000] from [1] simul_tick [43]  True f2 2ndO 43 null 0.291375771948 1
+0 randomseed [2] modified_value [i] x[1.000000] from [1] simul_tick [44]  True f2 2ndO 44 null 0.298864064168 1
+0 randomseed [2] modified_value [i] x[1.000000] from [1] simul_tick [45]  True f2 2ndO 45 null 0.28155918494 1
+0 randomseed [2] modified_value [i] x[1.000000] from [1] simul_tick [46]  True f2 2ndO 46 null 0.285707686506 1
+0 randomseed [2] modified_value [i] x[1.000000] from [1] simul_tick [47]  True f2 2ndO 47 null 0.29008793491 1
+0 randomseed [2] modified_value [i] x[1.000000] from [1] simul_tick [48]  True f2 2ndO 48 null 0.296806898888 1
