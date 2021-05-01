@@ -28,8 +28,6 @@ In `bbb_Dcc_reach_avoid_Ndrones_varvel.m`, `bbb_fct_Dcc_reach_avoid_Ndrones_varv
 
 Then, they are computed together to get delta (`delta_about_a2` and `delta_about_o`).
 
-In `bbb_Dcc_reach_avoid_Ndrones_varvel.m`,
-
 ```matlab
 ...
 for current_t = 1:100 %main loop
