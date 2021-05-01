@@ -1,6 +1,6 @@
 # Tools for analysis/data processing
 
-During the project, we created several tools that can assist data analysis and processing tasks. This folder contains such tools, and the below list provides brief descriptions.
+During the project, we created several tools that can assist data analysis and processing tasks. This folder contains such tools, and the below list provides brief descriptions about the tools.
 
 - **Profiling for the configuration definitions** (mentioned in Section 4.1.1)
   - A profiling tool to compute the varnothing (the value that removes an object)
@@ -17,7 +17,7 @@ During the project, we created several tools that can assist data analysis and p
   - A3: [A3_validation](A3_validation)
 - Test run evaluation
   - [Test_eval](Test_eval)
-    - Test run evaluation tool for A2, A3, and A4. Unlikely A1, A2~4 is running on the matlab sharing the same process of fuzz.
+    - Test run evaluation tool for A2, A3, and A4. Unlike A1, A2~4 is running on the matlab sharing the same process of fuzz.
       It contains comparing using MSE and interpolation (these functionalities for A1 is in its folder separately).
       Note that to use this tool on A2, A3, and A4, customization of input data type is required.
 - Generation possible coordinates for simulation before the physical experiment

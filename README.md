@@ -106,8 +106,8 @@ This page contains **Criteria for the selection of algorithms**, **Source code**
 
 Specifically, there are sub-folders containing:
 
-1. **[Criteria for selecting algorithms](https://github.com/swarmbug/code/tree/main/Additional_Materials/Criteria_for_selecting_algorithms)**
+1. **[Criteria for selecting algorithms](https://github.com/swarmbug/src/tree/main/Criteria_for_selecting_algorithms)**
 
-2. **[Source code](https://github.com/swarmbug/code/tree/main/Additional_Materials/Source_code)**
+2. **[Source code](https://github.com/swarmbug/src/tree/main/Source_code)**
 
-3. **[Profiling tools and supporting approaches](https://github.com/swarmbug/code/tree/main/Additional_Materials/Criteria_for_selecting_algorithms)**
+3. **[Profiling tools and supporting approaches](https://github.com/swarmbug/src/tree/main/Source_code/Tools)**
