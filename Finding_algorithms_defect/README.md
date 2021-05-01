@@ -57,7 +57,7 @@ This code is the part that how followers use `local_planner()`.
 We can find that followers include leader as obstacles in second line: `robots_obstacles_sp = [x for i,x in enumerate(followers_sp + [robot1.sp]) if i!=p]`.
 Then, it is merged with original obstacle (`obstacles`) and becomes `obstacles1` that is input for `local_planner()`.
 
-```python=
+```python
 for p in range(len(followers_sp)): # formation poses correction with local planner
         # robots repel from each other inside the formation
     robots_obstacles_sp = [x for i,x in enumerate(followers_sp + [robot1.sp]) if i!=p] # all poses except the robot[p]
